@@ -2,7 +2,7 @@
 
 ## Lịch sử
 - Xuất hiện lần đầu vào năm 1999
-- L2TP là sự kết hợp của PPTP và L2F
+- L2TP là sự kết hợp của PPTP và L2F (Layer 2 Forward)
 - PPTP do Microsoft đưa ra còn L2F do Cisco khởi xướng. 2 công ty này đã hợp tác cùng kết hợp 2 giao thức lại.
 
 ## L2TP là gì?
@@ -15,7 +15,7 @@
 IPSec (Internet Protocol Security) là một bộ giao thức mật mã bảo vệ lưu lượng dữ liệu qua mạng. Hoạt đồng ở Layer 3 (Network Layer) trong mô hình OSI.
 
 ## Mã hóa, chuẩn xác thực
-- Sử dụng IPSec để mã hóa dữ liệu. IPSec sử dụng 1 thuật toán băm (MD5, SHA-1, ...) để đảm bảo dữ liệu không bị can thiệp vào. 
+- Sử dụng IPSec để mã hóa dữ liệu. IPSec sử dụng 1 hàm băm (MD5, SHA-1, ...) để đảm bảo dữ liệu không bị can thiệp vào. 
 - Thuật toán mã hóa IPSec sử dụng: DES, 3DES, ...
 
 - Port sử dụng: L2TP sử dụng port 1701. Khi ghép với IPSec, nó sử dụng thêm cổng UDP 500 (cho IKE), 4500 (cho NAT) và 1701 (cho lưu lượng L2TP)
