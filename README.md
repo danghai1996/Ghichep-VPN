@@ -11,7 +11,7 @@
 - [3.3. OpenVPN](./docs/03-03-OpenVPN.md)
 
 ------------------
-## Ghi chép về IPSec
+## [Ghi chép về IPSec](./IPSec/README.md)
 
 ### [1. IPSec là gì?](./IPSec/01-IPSec.md)
 
