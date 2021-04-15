@@ -141,3 +141,8 @@ Nhiệm vụ:
 
 # Tài liệu tham khảo:
 - https://vnpro.vn/thu-vien/giao-thuc-internet-key-exchange-ike-trong-vpn-2417.html
+
+Video 2 Phase của IKE:
+- https://www.youtube.com/watch?v=EXilMKzrEXs
+
+- https://www.youtube.com/watch?v=HTaVbXgB6Dg
