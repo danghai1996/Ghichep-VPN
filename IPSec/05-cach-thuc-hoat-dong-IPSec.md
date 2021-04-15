@@ -24,7 +24,7 @@ Mục đích chính của IPSec là bảo vệ luồng dữ liệu mong muốn d
 
 <img src="../images/Screenshot_20.png">
 
-**Bước 2:** IKE Phase 1 - IKE xác thực các bên và 1 tập các dịch vụ bảo mật được thỏa thuận và công nhận để thiết lập IKE SA. Trong phase này, sẽ thiết lập 1 kênh truyền thông an toàn để tiến hành thỏa thuận IPSec SA trong Phase 2
+**Bước 2:** IKE Phase 1 - IKE xác thực các bên và 1 tập các cơ chế bảo mật được thỏa thuận và công nhận để thiết lập liên kết giữa IKE SA của mỗi bên. Trong phase này, sẽ thiết lập 1 kênh truyền thông an toàn để tiến hành thỏa thuận IPSec SA trong Phase 2
 
 <img src="../images/Screenshot_21.png">
 
