@@ -7,3 +7,5 @@
 ### [3. Các giao thức trong IPSec](./03-giao-thuc-trong-IPSec.md)
 
 ### [4. Giao thức trao đổi khóa IKE](./04-giao-thuc-IKE.md)
+
+### [5. Cách thức hoạt động của IPSec](./IPSec/05-cach-thuc-hoat-dong-IPSec.md)
