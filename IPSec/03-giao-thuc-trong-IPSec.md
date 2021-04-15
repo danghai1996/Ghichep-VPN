@@ -39,3 +39,6 @@ ESP sử dụng **IP protocol number 50**.
 AH là giao thức cungg cấp sự toàn vẹn, chứng thực nguồn gốc dữ liệu và một số tùy chọn khác. Nhưng khác với ESP, nó không cung cấp chức năng bảo mật.
 
 AH đảm bảo dữ liệu không bị thay đổi trong quá trình truyền dẫn nhưng không mã hóa dữ liệu.
+
+# Tài liệu tham khảo:
+- https://sirpremier.wordpress.com/2012/05/17/giao-thuc-ipsec/
