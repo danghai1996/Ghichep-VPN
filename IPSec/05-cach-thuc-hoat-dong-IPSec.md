@@ -41,3 +41,6 @@ Mục đích chính của IPSec là bảo vệ luồng dữ liệu mong muốn d
 # Tham khảo:
 - https://sirpremier.wordpress.com/2012/05/17/giao-thuc-ipsec/
 - https://www.ciscopress.com/articles/article.asp?p=24833&seqNum=6
+
+Video demo cấu hình IPSecVPN trên Packet Tracer:
+- https://www.youtube.com/watch?v=Z7LwU6H5IGE
