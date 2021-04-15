@@ -12,11 +12,3 @@
 
 ------------------
 ## [Ghi chép về IPSec](./IPSec/README.md)
-
-### [1. IPSec là gì?](./IPSec/01-IPSec.md)
-
-### [2. Tổ hợp an toàn SA](./IPSec/02-SA.md)
-
-### [3. Các giao thức trong IPSec](./IPSec/03-giao-thuc-trong-IPSec.md)
-
-### [4. Giao thức trao đổi khóa IKE](./IPSec/04-giao-thuc-IKE.md)
