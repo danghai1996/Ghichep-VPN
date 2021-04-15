@@ -89,7 +89,7 @@ Aggressive mode sử dụng 3 message:
 - Thường dùng cho **Remote Access VPN - Client to Site**
 
 ## IKE phase 2:
-IKE phase 2 cũng là phase bắt buộc phải có, đến phase này thì thiết bị đầu cuối đã có đầy đủ các thông số cần thiết cho kênh truyền an toàn. Quá trình thỏa thuận các thông số ở phase 2 là để thiết lập SA IPSec dựa trên nhưng thông số của phase 1.
+IKE phase 2 cũng là phase bắt buộc phải có, đến phase này thì thiết bị đầu cuối đã có đầy đủ các thông số cần thiết cho kênh truyền an toàn. Quá trình thỏa thuận các thông số ở phase 2 là để thiết lập SA IPSec dựa trên những thông số của phase 1.
 
 Quick mode là phương thức được sử dụng trong phase 2. Các thông số mà Quick mode thỏa thuận trong phase 2:
 - Giao thức IPSec: ESP hoặc AH.
@@ -101,7 +101,7 @@ Quick mode là phương thức được sử dụng trong phase 2. Các thông s
 Tất cả các gói tin trong phase 2 được bảo vệ (mã hóa, xác thực) bởi IKE SA sinh ra ở phase 1.
 
 Nhiệm vụ:
-- Thương lượng SA
+- Thương lượng SA IPSec
 - Rekey hoặc refresh khóa bằng thuật toán DH
 
 <img src="../images/Screenshot_18.png">
@@ -116,7 +116,7 @@ Nhiệm vụ:
 - Khóa này làm nhiệm vụ: xác thực, toàn vẹn, mã hóa (nếu cần) trong phiên IPSec.
 - Có 2 lựa chọn:
     - Làm mới khóa thu được bằng DH trong phase 1
-    - Thực hiện trao đỏi khóa DH lần 2, để thu được Ks (rekey)
+    - Thực hiện trao đổi khóa DH lần 2, để thu được Ks (rekey)
 
 **Bước 3: Các SA, keys, cùng với SPI được truyền tới IPSec driver**
 - Kết quả phase 2:
@@ -138,3 +138,6 @@ Nhiệm vụ:
     - StrongSwan
     - Openswan
     - ...
+
+# Tài liệu tham khảo:
+- https://vnpro.vn/thu-vien/giao-thuc-internet-key-exchange-ike-trong-vpn-2417.html
