@@ -36,7 +36,7 @@ Những tính năng trên cũng là những tính năng đặc trưng và chính
 ESP sử dụng **IP protocol number 50**.
 
 ## 3. AH (Authentication Header)
-AH là giao thức cungg cấp sự toàn vẹn, chứng thực nguồn gốc dữ liệu và một số tùy chọn khác. Nhưng khác với ESP, nó không cung cấp chức năng bảo mật.
+AH là giao thức cung cấp sự toàn vẹn, chứng thực nguồn gốc dữ liệu và một số tùy chọn khác. Nhưng khác với ESP, nó không cung cấp chức năng bảo mật.
 
 AH đảm bảo dữ liệu không bị thay đổi trong quá trình truyền dẫn nhưng không mã hóa dữ liệu.
 
