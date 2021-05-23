@@ -530,5 +530,7 @@ Trạng thái VIP trên Pfsense 1 sẽ là `MASTER`:
 
 <img src ="..\images\pfsense\Screenshot_100.png">
 
-> Kiểm tra trên Pfsense 2 sẽ là BACKUP:
+> Kiểm tra trên Pfsense 2 sẽ là BACKUP: => Đang lỗi. Trên node Pfsense 2 cũng đang ở trạng thái Master
 
+# Tham khảo:
+- https://docs.netgate.com/pfsense/en/latest/recipes/high-availability.html
