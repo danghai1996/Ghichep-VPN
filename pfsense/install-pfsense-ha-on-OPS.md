@@ -3,13 +3,13 @@
 # Mô hình
 IP Planing trong bài và IP PUBLIC:
 - HA-Pfsense-1:
-  - `vtnet0`: 192.168.20.211 - external1 	fa:16:3e:35:1a:2d
-  - `vtnet1`: 10.10.201.11 - LAN            fa:16:3e:66:a4:e7
-  - `vtnet2`: 10.10.202.11 - SYNC           fa:16:3e:14:4b:db
+  - `vtnet0`: 192.168.20.211 - external1 	`fa:16:3e:35:1a:2d`
+  - `vtnet1`: 10.10.201.11 - LAN            `fa:16:3e:66:a4:e7`
+  - `vtnet2`: 10.10.202.11 - SYNC           `fa:16:3e:14:4b:db`
 - HA-Pfsense-2:
-  - `vtnet0`: 192.168.20.212 - external1    fa:16:3e:ab:1c:e0
-  - `vtnet1`: 10.10.201.12 - LAN            fa:16:3e:ca:b9:5c
-  - `vtnet2`: 10.10.202.12 - SYNC           fa:16:3e:9d:d2:72
+  - `vtnet0`: 192.168.20.212 - external1    `fa:16:3e:ab:1c:e0`
+  - `vtnet1`: 10.10.201.12 - LAN            `fa:16:3e:ca:b9:5c`
+  - `vtnet2`: 10.10.202.12 - SYNC           `fa:16:3e:9d:d2:72`
 
 - VIP External: 192.168.20.10
 - VIP LAN: 10.10.201.10
